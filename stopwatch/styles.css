@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2% auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5vw;
+    text-decoration: underline;
+    padding-right: 2%;
+}
+.box{
+    margin: 2% 10%;
+    /* background-color: aquamarine; */
+}
+.innerContainer{
+    width: 15vw;
+    margin: auto;
+    height:5vw;
+    border-radius:2vw;
+    background-color: #3d3e3c;
+    color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2.7vw;
+    font-family: 'Michromo';
+}
+.buttonContainer{
+    font-family: 'Over the Rainbow', cursive;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 1% auto;
+}
+.btn{
+    margin: 1%;
+    font-size:2vw;
+    border-radius:1vw;
+    padding: 4px 15px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}
+#btn_start{
+    background-color: rgb(128, 255, 0);
+}
+#btn_stop{
+    background-color: rgb(255, 109, 109);
+}
+#btn_reset{
+    background-color: blue;
+}
+#btn_start:hover{
+    color: aliceblue;
+}
+#btn_stop:hover{
+    color: aliceblue;
+}
+#btn_reset:hover{
+    color: aliceblue;
+}
+@media screen and (max-width:300px) {
+    .buttonContainer{
+        display: flex;
+        flex-direction: column;
+    }
+}
